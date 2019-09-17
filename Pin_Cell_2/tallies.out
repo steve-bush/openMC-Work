@@ -1,0 +1,15 @@
+
+ =========================>     TALLY 1: FLUX     <=========================
+
+ Distributed Cell u2->c5->u1->c1
+   Total Material
+     Flux                                 1.48007        +/- 4.91836E-03
+ Distributed Cell u2->c6->u1->c1
+   Total Material
+     Flux                                 1.47998        +/- 5.14310E-03
+ Distributed Cell u2->c7->u1->c1
+   Total Material
+     Flux                                 1.48835        +/- 4.65029E-03
+ Distributed Cell u2->c8->u1->c1
+   Total Material
+     Flux                                 1.40688        +/- 5.71489E-03
