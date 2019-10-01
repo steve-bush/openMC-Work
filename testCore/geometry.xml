@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='utf-8'?>
+<geometry>
+  <cell id="20" material="4" region="(-15 14 -20 30 31 32 33) | (15 -20) | (-14 -20)" universe="11" />
+  <cell id="21" material="3" region="20" universe="11" />
+  <cell fill="1" id="30" region="-15 14 -30" translation="4.1 4.1 0.0" universe="11" />
+  <cell fill="2" id="31" region="-15 14 -31" translation="4.1 -4.1 0.0" universe="11" />
+  <cell fill="3" id="32" region="-15 14 -32" translation="-4.1 -4.1 0.0" universe="11" />
+  <cell fill="4" id="33" region="-15 14 -33" universe="11" />
+  <cell fill="11" id="41" universe="5" />
+  <cell id="99" material="void" region="11 | -10 | 21" universe="11" />
+  <cell id="110" material="1" region="12 -13 -40" universe="1" />
+  <cell id="111" material="2" region="12 -13 40 -41" universe="1" />
+  <cell id="112" material="3" region="(12 -13 41) | 13 | -12" universe="1" />
+  <cell id="210" material="1" region="12 -13 -40" universe="2" />
+  <cell id="211" material="2" region="12 -13 40 -41" universe="2" />
+  <cell id="212" material="3" region="(12 -13 41) | 13 | -12" universe="2" />
+  <cell id="310" material="1" region="12 -13 -40" universe="3" />
+  <cell id="311" material="2" region="12 -13 40 -41" universe="3" />
+  <cell id="312" material="3" region="(12 -13 41) | 13 | -12" universe="3" />
+  <cell id="410" material="1" region="12 -13 -40" universe="4" />
+  <cell id="411" material="2" region="12 -13 40 -41" universe="4" />
+  <cell id="412" material="3" region="(12 -13 41) | 13 | -12" universe="4" />
+  <surface boundary="vacuum" coeffs="-10" id="10" name="Top of the water tank" type="z-plane" />
+  <surface boundary="vacuum" coeffs="10" id="11" name="Bottom of the water tank" type="z-plane" />
+  <surface coeffs="-9" id="12" name="Top of the fuel region" type="z-plane" />
+  <surface coeffs="9" id="13" name="Bottom of the fuel region" type="z-plane" />
+  <surface coeffs="-9.5" id="14" name="Bottom of the fuel element" type="z-plane" />
+  <surface coeffs="9.5" id="15" name="Bottom of the fuel element" type="z-plane" />
+  <surface coeffs="0.0 0.0 10" id="20" name="Inner radius of water tank" type="z-cylinder" />
+  <surface boundary="vacuum" coeffs="0.0 0.0 11" id="21" name="Outer radius of water tank" type="z-cylinder" />
+  <surface coeffs="4.1 4.1 3.5" id="30" name="Bound of the NE fuel location" type="z-cylinder" />
+  <surface coeffs="4.1 -4.1 3.5" id="31" name="Bound of the SE fuel location" type="z-cylinder" />
+  <surface coeffs="-4.1 -4.1 3.5" id="32" name="Bound of the SW fuel location" type="z-cylinder" />
+  <surface coeffs="-4.1 4.1 3.5" id="33" name="Bound of the NW fuel location" type="z-cylinder" />
+  <surface coeffs="0.0 0.0 0.5" id="40" name="Zirconium rod outer radius" type="z-cylinder" />
+  <surface coeffs="0.0 0.0 3.4" id="41" name="Fuel meat outer radius" type="z-cylinder" />
+</geometry>
