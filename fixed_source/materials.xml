@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+<materials>
+  <material id="1" name="concrete">
+    <density units="g/cm3" value="2.4" />
+    <nuclide name="H1" wo="0.022124278629176358" />
+    <nuclide name="H2" wo="5.085260182774568e-06" />
+    <nuclide name="O16" wo="0.5741337849554967" />
+    <nuclide name="O17" wo="0.00023243318540838544" />
+    <nuclide name="Na23" wo="0.015228206607663967" />
+    <nuclide name="Mg24" wo="0.0009881580344305626" />
+    <nuclide name="Mg25" wo="0.0001303189933233482" />
+    <nuclide name="Mg26" wo="0.00014920508464105143" />
+    <nuclide name="Al27" wo="0.019979511207438135" />
+    <nuclide name="Si28" wo="0.2802219547481918" />
+    <nuclide name="Si29" wo="0.014744102873091395" />
+    <nuclide name="Si30" wo="0.010065695026852797" />
+    <nuclide name="K39" wo="0.009347931884719626" />
+    <nuclide name="K40" wo="1.202883326525966e-06" />
+    <nuclide name="K41" wo="0.0007092118504431006" />
+    <nuclide name="Ca40" wo="0.041572369962976224" />
+    <nuclide name="Ca42" wo="0.00029131919795628164" />
+    <nuclide name="Ca43" wo="6.223421587373157e-05" />
+    <nuclide name="Ca44" wo="0.0009839453958409028" />
+    <nuclide name="Ca46" wo="1.9725318468258845e-06" />
+    <nuclide name="Ca48" wo="9.622694943654786e-05" />
+    <nuclide name="Fe54" wo="0.00036377437123526587" />
+    <nuclide name="Fe56" wo="0.005921721024942872" />
+    <nuclide name="Fe57" wo="0.00013920443360259695" />
+    <nuclide name="Fe58" wo="1.885024388560083e-05" />
+    <nuclide name="C0" wo="0.0024873004480166563" />
+  </material>
+</materials>

@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<geometry>
+  <cell id="1" material="1" region="1 -2 3 -4" universe="1" />
+  <surface boundary="vacuum" coeffs="-5.0" id="1" name="minimum x" type="x-plane" />
+  <surface boundary="vacuum" coeffs="5.0" id="2" name="maximum x" type="x-plane" />
+  <surface boundary="vacuum" coeffs="-5.0" id="3" name="minimum y" type="y-plane" />
+  <surface boundary="vacuum" coeffs="5.0" id="4" name="maximum y" type="y-plane" />
+</geometry>
