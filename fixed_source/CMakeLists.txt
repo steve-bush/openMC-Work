@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.3 FATAL_ERROR)
 project(openmc_sources CXX)
 add_library(source SHARED source_ring.cpp)
-find_package(OpenMC REQUIRED HINTS <path to openmc>)
+find_package(OpenMC REQUIRED HINTS /usr/local/bin/openmc)
 target_link_libraries(source OpenMC::libopenmc)
